@@ -1,0 +1,25 @@
+ul.categories{
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 0.1rem;
+  background: #0085ff;
+  color:#fff;
+}
+.categories::-webkit-scrollbar {display:none}
+.categories li{
+  display: inline-block;
+  opacity: .7;
+  margin: 0 0.24rem;
+  line-height: 0.6rem;
+}
+li.active{
+  border-bottom: 0.04rem solid #fff;
+  color:#fff;
+  opacity: 1;
+}
+.toggle{
+  position: absolute;
+  top: 1.6rem;
+  right: 0.2rem;
+  z-index: 999;
+}
